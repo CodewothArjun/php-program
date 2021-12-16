@@ -152,3 +152,32 @@ for($i = 2; $i < $x + 1; $i++) {
   primenumber($i);
 }
 ?>  -->
+
+
+
+
+Another way.....
+Qn 15
+<?php
+$a=4321;
+$sum=0;
+while($a!=0){
+    echo $a."<br>";
+    $rem=$a%10;
+    $sum+=$rem;
+    $a=intdiv($a,10);
+}
+
+echo "sum=".$sum;
+
+
+
+Qn 16
+<?php
+$sum=0;
+for($i=1;$i<=100;$i++){
+    if($i%2==0){
+        $sum+=$i;
+    }
+}
+echo "Sum=".$sum;
